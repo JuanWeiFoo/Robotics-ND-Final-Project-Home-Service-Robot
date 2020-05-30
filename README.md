@@ -27,10 +27,15 @@ $ catkin_init_workspace
 $ cd ~/catkin_ws
 $ catkin_make
 ```
-### 3) Clone the repository into the src directory
+### 3) Clone the required repositories into the src directory
 ```
 $ cd src
+$ git clone https://github.com/ros-perception/slam_gmapping.git
+$ git clone https://github.com/turtlebot/turtlebot.git
+$ git clone https://github.com/turtlebot/turtlebot_interactions.git
+$ git clone https://github.com/turtlebot/turtlebot_simulator.git
 $ git clone https://github.com/JuanWeiFoo/Robotics-ND-Final-Project-Home-Service-Robot.git
+
 ```
 ### 4) Install ros dependencies (This command installs all the packages that the packages in your catkin workspace depend upon but are missing on your computer)
 ```
